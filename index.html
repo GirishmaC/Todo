@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header id="header">
+            <span class="one">
+                <span id="first">Tasks</span>
+                <span id="sec">Lists</span>
+            </span>
+            <span class="two">
+                <a href="#popup">
+                    <span id="add-button">
+                        <i class="fa fa-plus-circle" style="font-size:30px;color:black"></i>
+                    </span>
+                </a>
+                <a href="#popup"><span class="add-list">Add List</span></a>
+            </span>
+        </header>
+
+
+        <div id="popup">
+            <div id="popup-window">
+                <span id="new-item">Add New List</span>
+                <input type="text" name="item" />
+                <a href="#" class="close">ADD</a>
+            </div>
+        </div>
+
+
+        <main id="boxes">
+
+            <div class="box">
+                <span class="title"><a href="sec.html" target="_self">Trip to Paris</a></span>
+                <hr class="box-hr" />
+                <br />
+                <span class="text-crossed">Completed Task</span>
+                <br /><br />
+
+                <form action="">
+                    <input type="checkbox" name="task" id="task" />
+                    <label for="task" class="hlo" >PendingTask</label>
+                </form>
+            </div>
+
+            <div class="box">
+                <span class="title">My Todo List</span>
+                <hr class="box-hr" />
+                <br />
+                <span class="text-crossed">Completed Task</span>
+                <br /><br />
+
+                <form action="">
+                    <input type="checkbox" name="task" id="task" />
+                    <label for="task" class="hlo" >PendingTask</label>
+                </form>
+            </div>
+
+            <div class="box box-three">
+                <span class="title">My Todo List</span>
+                <hr class="box-hr" />
+                <br />
+                <span class="text-crossed">Completed Task</span>
+                <br /><br />
+
+                <form action="">
+                    <input type="checkbox" name="task" id="task" />
+                    <label for="task" class="hlo" >PendingTask</label>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
